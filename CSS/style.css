@@ -8,4 +8,91 @@ html {
 
 .body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    display: block;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.form {
+    background-color: white;
+}
+
+.form__header {
+    padding: 20px;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 0;
+}
+
+.form__input {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    height: 40px;
+}
+
+.form__button {
+    background-color: teal;
+    color: white;
+    border: 1px solid white;
+}
+
+.list {
+    background-color: white;
+}
+
+.list__header {
+    padding: 20px;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 0;
+}
+
+.list__all {
+    list-style: none;
+    padding: 0;
+}
+
+.list__element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.child-2 {
+    flex-grow: 1;
+}
+
+.list__element--done {
+    text-decoration: line-through;
+}
+
+.list__button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.list__button--done {
+    background-color: green;
+    color: #eee;
+}
+
+.list__button--remove {
+    background-color: red;
+}
+
+.list__button--image {
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
 }

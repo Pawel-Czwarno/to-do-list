@@ -1,5 +1,7 @@
 {
-    const tasks = [];
+    const tasks = [
+
+    ];
 
     const addNewTask = (newTaskContent) => {
         tasks.push({
@@ -41,10 +43,10 @@
 
         for (const task of tasks) {
             htmlString += `
-            <li ${task.done ? " style=\"text-decoration: line-through\"" : ""}>
-                <button class="js-done">Zrobione</button>    
-                ${task.content}
-                <button class="js-remove">Usuń</button>
+            <li class="list__element ${task.done ? "list__element--done" : ""}">
+                <div><button class="list__button list__button--done js-done">${task.done ? "✓" : ""}</button></div>   
+                <div class="child-2">${task.content}</div>
+                <div><button class="list__button list__button--remove js-remove"><img class="list__button--image" src="./images/trash.png" alt="trash_icon"></button></div>
             </li>
             `;
         }
@@ -64,6 +66,7 @@
         }
 
         addNewTask(newTaskContent);
+        newTaskContent.value = "";
     };
 
     const init = () => {

@@ -22,8 +22,8 @@ This project is created in connection with the programming course at YouCode.pl 
 
 ## Screenshots
 
-![To do list screenshot_1](https://github.com/Pawel-Czwarno/currency-converter/blob/main/images/Screenshot1.jpg?raw=true)
+![To do list screenshot_1](https://github.com/Pawel-Czwarno/to-do-list/blob/main/images/Screenshot1.jpg?raw=true)
 
-![To do list screenshot_2](https://github.com/Pawel-Czwarno/currency-converter/blob/main/images/Screenshot2.jpg?raw=true)
+![To do list screenshot_2](https://github.com/Pawel-Czwarno/to-do-list/blob/main/images/Screenshot2.jpg?raw=true)
 
-![To do list screenshot_3](https://github.com/Pawel-Czwarno/currency-converter/blob/main/images/Screenshot3.jpg?raw=true)
+![To do list screenshot_3](https://github.com/Pawel-Czwarno/to-do-list/blob/main/images/Screenshot3.jpg?raw=true)

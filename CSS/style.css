@@ -47,6 +47,8 @@ html {
 
 .form__input {
     padding: 15px;
+    border: 1px solid teal;
+    border-radius: 5px;
 }
 
 .form__button {
@@ -54,6 +56,7 @@ html {
     color: white;
     border: 1px solid white;
     padding: 15px;
+    border-radius: 5px;
 }
 
 .form__button:hover {
@@ -68,18 +71,15 @@ html {
 
 .list__element {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 40px;
-    margin: 10px;
-    padding: 10px;
     border-bottom: 2px solid #eee;
+    padding: 10px;
 }
 
 .child-2 {
     flex-grow: 1;
-    min-width: 200px;
+    margin: 0 10px;
 }
 
 .list__element--done {
@@ -88,10 +88,9 @@ html {
 
 .list__button {
     height: 30px;
-    width: 30px;
+    min-width: 30px;
     border: none;
     border-radius: 5px;
-    margin: 10px;
 }
 
 .list__button--done {

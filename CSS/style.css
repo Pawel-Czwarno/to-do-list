@@ -8,12 +8,12 @@ html {
 
 .body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #eee;
+    background-color: #ddd;
 }
 
 .main {
     max-width: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 30px;
 }
 
@@ -28,7 +28,7 @@ html {
 
 .section__header {
     padding: 20px;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #ddd;
     margin: 0;
 }
 
@@ -73,13 +73,14 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #ddd;
     padding: 10px;
 }
 
 .child-2 {
     flex-grow: 1;
     margin: 0 10px;
+    word-break: break-all;
 }
 
 .list__element--done {
@@ -90,12 +91,11 @@ html {
     height: 30px;
     min-width: 30px;
     border: none;
-    border-radius: 5px;
 }
 
 .list__button--done {
     background-color: green;
-    color: #eee;
+    color: #ddd;
 }
 
 .list__button--remove {

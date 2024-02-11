@@ -5,11 +5,7 @@
     align-items: center;
     border-bottom: 1px solid #ddd;
     padding: 10px;
-}
-
-.child-2 {
-    flex-grow: 1;
-    margin: 0 10px;
+    word-wrap: break-word;
     word-break: break-all;
 }
 
